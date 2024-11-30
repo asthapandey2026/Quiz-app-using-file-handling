@@ -1,0 +1,494 @@
+# Category: Python
+
+Q: What is the output of print(3 + 4)?
+A: 6
+B: 7
+C: 8
+D: 9
+Correct: 2
+Explanation: The '+' operator adds two numbers.
+
+Q: What keyword is used to define a function in Python?
+A: func
+B: def
+C: function
+D: define
+Correct: 2
+Explanation: The 'def' keyword is used for defining functions in Python.
+
+Q: Which of the following is a mutable data type in Python?
+A: String
+B: Tuple
+C: List
+D: Int
+Correct: 3
+Explanation: Lists are mutable data types in Python, while strings and tuples are immutable.
+
+Q: How do you insert comments in Python code?
+A: //
+B: /* comment */
+C: <!-- comment -->
+D: #
+Correct: 4
+Explanation: In Python, comments are added using the '#' symbol.
+
+Q: Which of the following is not a valid variable name in Python?
+A: var_name
+B: 2ndVariable
+C: variable2
+D: variable_name
+Correct: 2
+Explanation: Variable names cannot start with a digit in Python.
+
+Q: What will be the output of the following code: print(type([]))?
+A: <class 'list'>
+B: <class 'dict'>
+C: <class 'tuple'>
+D: <class 'int'>
+Correct: 1
+Explanation: The output will be <class 'list'> as [] creates an empty list in Python.
+
+Q: What data type is the object below? L = [1, 2, 3]?
+A: List
+B: Dictionary
+C: Tuple
+D: Set
+Correct: 1
+Explanation: L is a list since it is defined using square brackets [].
+
+Q: What method can be used to convert an integer to a string?
+A: str()
+B: int()
+C: string()
+D: convert()
+Correct: 1
+Explanation: The str() method is used to convert an integer to a string in Python.
+
+Q: Which operator is used to calculate the remainder of a division?
+A: /
+B: //
+C: %
+D: **
+Correct: 3
+Explanation: The '%' operator returns the remainder of a division operation.
+
+Q: How do you create a dictionary in Python?
+A: {}
+B: []
+C: ()
+D: <>
+Correct: 1
+Explanation: Dictionaries are created using curly braces {} in Python.
+
+Q: Which of the following is a built-in data type in Python?
+A: list
+B: set
+C: tuple
+D: All of the above
+Correct: 4
+Explanation: list, set, and tuple are all built-in data types in Python.
+
+Q: Which function is used to read input from the user in Python?
+A: input()
+B: read()
+C: scan()
+D: getInput()
+Correct: 1
+Explanation: The input() function is used to read input from the user in Python.
+
+Q: What will the expression "5" + "5" output?
+A: 10
+B: 55
+C: 5.0
+D: TypeError
+Correct: 2
+Explanation: When you use the + operator on strings, it concatenates them.
+
+Q: Which of the following represents a for loop in Python?
+A: for i in range(5):
+B: for i = 1 to 5:
+C: for i in [1, 2, 3, 4, 5]:
+D: Both 1 and 3
+Correct: 4
+Explanation: Both forms are valid for loops in Python.
+
+Q: What is the purpose of the `pass` statement in Python?
+A: To exit a loop
+B: To continue to the next iteration
+C: To provide an empty code block
+D: To terminate a program
+Correct: 3
+Explanation: The `pass` statement is a null operation used when no code is required syntactically.
+
+Q: How can you delete a specific element from a list in Python?
+A: delete()
+B: remove()
+C: drop()
+D: discard()
+Correct: 2
+Explanation: The remove() method deletes the first occurrence of a value from a list.
+
+Q: What is the output of the expression `bool([])` in Python?
+A: True
+B: False
+C: None
+D: 0
+Correct: 2
+Explanation: An empty list evaluates to False in a boolean context.
+
+Q: What is the output of print(bool(0))?
+A: True
+B: False
+C: None
+D: TypeError
+Correct: 2
+Explanation: The boolean value of 0 is False in Python.
+
+Q: Which of the following creates a tuple in Python?
+A: ()
+B: []
+C: {}
+D: ||
+Correct: 1
+Explanation: Tuples are created using parentheses () in Python.
+
+Q: What built-in function can be used to get the absolute value of a number?
+A: abs()
+B: value()
+C: absolute()
+D: math.abs()
+Correct: 1
+Explanation: The abs() function returns the absolute value of a number.
+
+# Category: Java
+
+Q: What is the correct way to declare a variable in Java?
+A: int num;
+B: num int;
+C: int:num;
+D: num: int;
+Correct: 1
+Explanation: The correct syntax for variable declaration in Java is `int num;`.
+
+Q: Which of the following is the main method signature in Java?
+A: public static void main(String args[])
+B: public void main(String args[])
+C: void main(String[] args)
+D: public static void main(String args);
+Correct: 1
+Explanation: The main method must be declared as `public static void main(String args[])`.
+
+Q: What is the output of the following code: System.out.println(5 + 3 + "8")?
+A: 8
+B: 53
+C: 58
+D: 83
+Correct: 3
+Explanation: The numeric addition happens first, followed by string concatenation, resulting in "58".
+
+Q: How do you create an array in Java?
+A: int arr[];
+B: int arr() {};
+C: int arr[] = new int[5];
+D: A and C
+Correct: 4
+Explanation: Both `int arr[];` and `int arr[] = new int[5];` are valid ways to declare an array.
+
+Q: What will be the result of 10 / 3 in Java?
+A: 3
+B: 3.0
+C: 3.33
+D: 3.333333
+Correct: 1
+Explanation: In integer division, the fractional part is discarded, resulting in 3.
+
+Q: Which keyword is used to prevent a class from being subclassed in Java?
+A: final
+B: static
+C: private
+D: protected
+Correct: 1
+Explanation: The final keyword prevents class inheritance in Java.
+
+Q: How can you create an instance of a class in Java?
+A: ClassName obj = new ClassName();
+B: ClassName obj = ClassName();
+C: obj = new ClassName;
+D: new ClassName obj;
+Correct: 1
+Explanation: To create an instance, you must use the `new` keyword followed by the class constructor.
+
+Q: Which operator is used to compare two objects in Java?
+A: ==
+B: !=
+C: ===
+D: .equals()
+Correct: 4
+Explanation: The .equals() method compares two objects for equality in Java.
+
+Q: What exception is thrown when dividing by zero in Java?
+A: ArithmeticException
+B: NullPointerException
+C: NumberFormatException
+D: IndexOutOfBoundsException
+Correct: 1
+Explanation: Dividing by zero causes an `ArithmeticException` to be thrown.
+
+Q: What is the default value of an int variable in Java?
+A: 0
+B: null
+C: undefined
+D: ""
+Correct: 1
+Explanation: The default value of an int variable is 0 when it is not initialized.
+
+Q: How do you declare an interface in Java?
+A: interface MyInterface {}
+B: MyInterface interface {}
+C: declare MyInterface {}
+D: interface = MyInterface {}
+Correct: 1
+Explanation: Interfaces are declared using the `interface` keyword followed by the interface name.
+
+Q: What is the purpose of the 'static' keyword in Java?
+A: To define global variables
+B: To define class variables and methods
+C: To define instance variables
+D: To define private members
+Correct: 2
+Explanation: The 'static' keyword allows methods and variables to be associated with the class rather than any instance.
+
+Q: Which of the following is NOT a primitive data type in Java?
+A: int
+B: float
+C: boolean
+D: String
+Correct: 4
+Explanation: String is an object class, not a primitive data type.
+
+Q: What will be the output of the following code? System.out.println("Hello ".concat("World!"));
+A: Hello World!
+B: HelloWorld!
+C: Hello + World!
+D: Hello + World!
+Correct: 1
+Explanation: The concat() method joins two strings, resulting in "Hello World!".
+
+Q: Which of the following keywords is used to inherit a class in Java?
+A: extends
+B: implements
+C: inherits
+D: implements class
+Correct: 1
+Explanation: The `extends` keyword is used to inherit classes in Java.
+
+Q: What is the purpose of the 'super' keyword?
+A: To call the parent class constructor
+B: To refer to the parent class
+C: To access parent class methods
+D: All of the above
+Correct: 4
+Explanation: The 'super' keyword is used for various purposes related
+
+Q: What is the output of the following code: System.out.println(0.1 + 0.2 == 0.3)?
+A: true
+B: false
+C: Compilation Error
+D: Runtime Error
+Correct: 2
+Explanation: Due to floating-point precision issues, 0.1 + 0.2 does not exactly equal 0.3, resulting in false.
+
+Q: How do you handle exceptions in Java?
+A: try/catch
+B: catch/throw
+C: handle/throw
+D: try/finally
+Correct: 1
+Explanation: The try/catch block is used to handle exceptions in Java.
+
+Q: Which of the following can be an entry point for a Java program?
+A: public static void execute(String[] args)
+B: public static void main(String[] args)
+C: void start(String args[])
+D: public void main(String args[])
+Correct: 2
+Explanation: The entry point for a Java program is defined by `public static void main(String[] args)`.
+
+Q: What is the correct way to declare a variable in Java?
+A: int num;
+B: num int;
+C: int:num;
+D: num: int;
+Correct: 1
+Explanation: The correct syntax for variable declaration in Java is `int num;`.
+
+# Category: C++
+
+Q: What is the correct way to define a function in C++?
+A: void functionName() {}
+B: function void functionName {}
+C: void functionName();
+D: function functionName() {}
+Correct: 1
+Explanation: The correct syntax for defining a function in C++ is `void functionName() {}`.
+
+Q: Which of the following is the correct header file to include for input/output operations in C++?
+A: <ios>
+B: <iostream>
+C: <inputoutput>
+D: <stdio.h>
+Correct: 2
+Explanation: The `#include <iostream>` directive allows you to perform input and output operations in C++.
+
+Q: What is the output of the following code: std::cout << 10 + 20 + "30";?
+A: 30
+B: 102030
+C: Compilation error
+D: 1020
+Correct: 3
+Explanation: Adding integers and a string directly without converting causes a compilation error.
+
+Q: What keyword is used to create a class in C++?
+A: class
+B: define
+C: create
+D: struct
+Correct: 1
+Explanation: The `class` keyword is used to define a class in C++.
+
+Q: How do you declare a pointer in C++?
+A: int *ptr;
+B: ptr int*;
+C: *int ptr;
+D: ptr: int*;
+Correct: 1
+Explanation: A pointer is declared by using the `*` symbol before the pointer name, e.g., `int *ptr;`.
+
+Q: What will be the result of the following code snippet?
+int a = 5;
+int b = ++a;
+std::cout << b;
+A: 5
+B: 6
+C: Compilation error
+D: Infinite loop
+Correct: 2
+Explanation: The pre-increment operator `++a` increases the value of `a` to 6 before assigning it to `b`.
+
+Q: Which of the following concepts is used to hide the implementation details in C++?
+A: Inheritance
+B: Polymorphism
+C: Abstraction
+D: Encapsulation
+Correct: 3
+Explanation: Abstraction allows hiding implementation details and showing only essential features.
+
+Q: How is memory allocation done for a variable in C++?
+A: int *p = malloc(sizeof(int));
+B: int *p = new int;
+C: int p = allocate(int);
+D: int p = new(sizeof(int));
+Correct: 2
+Explanation: Memory allocation for variables can be done using `new` in C++, e.g., `int *p = new int;`.
+
+Q: What does the term "RAII" stand for in C++?
+A: Resource Allocation Is Initialization
+B: Resource Allocation Is Implementation
+C: Regular Allocation Is Initialization
+D: Read Allocation Is Immediate
+Correct: 1
+Explanation: RAII stands for Resource Allocation Is Initialization, a programming idiom used in C++.
+
+Q: What is the purpose of the 'virtual' keyword in C++?
+A: To declare static members
+B: To allow inheritance
+C: To enable method overriding
+D: To indicate private variables
+Correct: 3
+Explanation: The `virtual` keyword allows methods to be overridden in derived classes in C++.
+
+Q: Which of the following is a correct way to declare a function that returns a pointer to an integer in C++?
+A: int* functionName();
+B: pointer functionName();
+C: int& functionName();
+D: int* return functionName();
+Correct: 1
+Explanation: The correct way to declare a function that returns a pointer to an integer is `int* functionName();`.
+
+Q: How do you create a constant variable in C++?
+A: const int num;
+B: constant int num;
+C: final int num;
+D: int const num;
+Correct: 1
+Explanation: The `const` keyword is used to declare a constant variable in C++.
+
+Q: What will the output of the following code be?
+for(int i = 0; i < 5; i++)
+    std::cout << i;
+A: 01234
+B: 12345
+C: 012345
+D: 1234
+Correct: 1
+Explanation: The loop prints values from 0 to 4, resulting in "01234".
+
+Q: Which of the following is used for threading in C++11 and later?
+A: <thread>
+B: <mutex>
+C: <sync>
+D: <threading>
+Correct: 1
+Explanation: The `<thread>` header file is used to create and manage threads in C++11 and later.
+
+Q: What is the correct way to declare a default constructor in C++?
+A: MyClass() {}
+B: MyClass() {};
+C: MyClass {};
+D: MyClass(void);
+Correct: 1
+Explanation: A default constructor is defined with the syntax `MyClass() {}`.
+
+Q: Which of the following is NOT a valid C++ access modifier?
+A: public
+B: private
+C: protected
+D: hidden
+Correct: 4
+Explanation: "hidden" is not a valid access modifier in C++.
+
+Q: What will be the output of the following code?
+std::cout << (5 == 5 ? "True" : "False");
+A: True
+B: False
+C: 1
+D: Compilation Error
+Correct: 1
+Explanation: The conditional (ternary) operator evaluates as true, so "True" is printed.
+
+Q: What is the purpose of `#include <vector>` in C++?
+A: To include meta programming
+B: To include standard library features for string manipulation
+C: To include support for the vector container
+D: To include input/output operations
+Correct: 3
+Explanation: The `#include <vector>` directive allows you to use the `std::vector` container, which is part of the Standard Template Library (STL).
+
+Q: Which operator is used to access members of a structure in C++?
+A: .
+B: ->
+C: ::
+D: /
+Correct: 1
+Explanation: The dot operator (.) is used to access members of a structure or class in C++.
+
+Q: What is the result of the following code?
+int x = 10;
+int y = 20;
+std::cout << (x += y);
+A: 10
+B: 20
+C: 30
+D: 10 + 20
+Correct: 3
+Explanation: The expression `(x += y)` adds `y` to `x`, so `x` becomes 30, and that value is printed.
